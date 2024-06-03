@@ -1,0 +1,37 @@
+.container{
+    display: inline-grid;
+    grid-template-columns: 100px 100px 100px 100px 100px;
+    grid-template-rows: 50px 50px 50px 50px 50px;
+    gap: 10px;
+    background-color: black;
+
+}
+
+.row{
+    display: grid;
+}
+
+button{
+    background-color: pink;
+    font-size: larger;
+    font-weight: 800;
+    border-radius: 100%;
+}
+
+#top-calc{
+    display: grid;
+    grid-area: 1 / 1 / 1/ 6;
+    color: white;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#name{
+    color: white;
+    grid-area: 5/2/6/6;
+    justify-content: end;
+    margin-right: 125px;
+    margin-top: 8px;
+    font-size: large;
+    font-weight: 600;
+}
